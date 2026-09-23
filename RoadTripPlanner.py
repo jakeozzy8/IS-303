@@ -7,7 +7,7 @@
 #INPUTS
 first_name = input("Enter your first name: ").upper()
 trip_destination = input("Where are you traveling? ")
-trip_distance = int( input("How many miles away is your destination? "))
+trip_distance = float( input("How many miles away is your destination? "))
 car_model = input("What model is your car? ")
 miles_per_gallon = float( input("How many miles per gallon does your car get? "))
 price_of_gas = float ( input("What is the price of gas per gallon? "))
