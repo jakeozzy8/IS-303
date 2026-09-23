@@ -1,5 +1,3 @@
-print ("This is some code")
+amount = 100000000
 
-print ("Here's some more code")
-
-print("more stuff, more stuff")
+print("If I had  " + "${:,.2f}".format(amount))
