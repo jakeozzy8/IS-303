@@ -30,12 +30,12 @@ expense_average = expense_total / expense_count
 
 #Print Results
 print("Expense Summary")
-print("----------------")
+print("---------------")
 print("Number of Expenses: " + str(expense_count))
 print(f"Total Expenses:  ${expense_total:,.2f}")
 print(f"Average Expense: ${expense_average:,.2f}")
 print(f"Highest Expense: ${max(expenses):,.2f}")
-print(f"Lowest Expense: ${min(expenses):,.2f}")
+print(f"Lowest Expense: ${min(expenses):,.2f}", "\n")
 
 print("Small Expenses: " + str(small_count))
 print("Moderate Expenses: " + str(moderate_count))
