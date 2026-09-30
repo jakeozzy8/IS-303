@@ -7,8 +7,8 @@ expenses = []
 
 #ask to enter expense
 while True:
-    #determine size of expense
     expense_input = float(input("Enter an expense or put 0 to finish: "))
+    #determine size of expense
     if expense_input == 0:
         break
     elif expense_input < 0:
